@@ -39,13 +39,6 @@ if not fruit_choice:
     except URLError as e:
       streamlit.error()
 
-#import requests
-
-
-# take the json version and normalize it
-
-# import normalized data
-
 
 #dont run anything past here while we troubleshoot
 streamlit.stop()
